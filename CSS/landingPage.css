@@ -4,9 +4,6 @@ body {
     font-family: 'Raleway';
 }
 
-.container-fluid {
-    padding: 0; 
-}
 
 .row {
     justify-content: center;   
@@ -26,11 +23,6 @@ body {
     margin-right: 3px; 
 }
 
-/*.welcoming {
-    margin: 0px 0px; 
-    color: white; 
-}*/
-
 hr {
     display: block;
     margin-top: 0.5em;
@@ -46,7 +38,7 @@ hr {
   }
 
   .btn {
-      background: #cd202c; 
+      background: rgb(0, 48, 73); 
       color: white; 
       margin-top: 10px; 
   }
@@ -61,5 +53,48 @@ hr {
     width: 25%;
     margin-top: 20px; 
   }
-  
+.border{
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    border-color: pink;
+    background-color: white; 
+    color: green;  
+    padding-left: 5px; 
+    padding-right: 5px; 
+}
+
+.btn:hover {
+    background-color: #cd202c
+  }
+
+  .dropdown-item {
+    background-color: white; 
+  }
+
+  .dropdown-item:hover {
+    background-color: #cd202c
+  }
+
+  div p:hover {
+    color: #cd202c
+  }
+
+.buildingTable{
+
+}
+.indent1{
+  text-indent: 10px; 
+}
+.indent2{
+  text-indent: 30px; 
+}
+
+p {
+  margin-bottom: 5px; 
+}
+
+
+
+
+
 
