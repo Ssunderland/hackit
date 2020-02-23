@@ -1,3 +1,65 @@
-h1 {
-    color: red; 
+body {
+    background: rgb(0, 48, 73); 
+    color: white; 
+    font-family: 'Raleway';
 }
+
+.container-fluid {
+    padding: 0; 
+}
+
+.row {
+    justify-content: center;   
+}
+
+#mainNavbar {
+    margin-right: 0px;
+    margin-left: 0px; 
+    padding-left: 0px; 
+    padding-right: 0px; 
+}
+
+.headers {
+    justify-content: center;
+    text-align: center; 
+    margin-left: 3px; 
+    margin-right: 3px; 
+}
+
+/*.welcoming {
+    margin: 0px 0px; 
+    color: white; 
+}*/
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px; 
+    background-color: #cd202c; 
+  }
+
+  .navbar {
+      background: rgba(0, 48, 73, 0.92); 
+  }
+
+  .btn {
+      background: #cd202c; 
+      color: white; 
+      margin-top: 10px; 
+  }
+
+  .radioButtons {
+      margin-top: 5px; 
+      margin-right: 5px; 
+  }
+
+  .container{
+    justify-content: center; 
+    width: 25%;
+    margin-top: 20px; 
+  }
+  
+
