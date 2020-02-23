@@ -31,6 +31,8 @@ hr {
     margin-right: auto;
     height: 2px; 
     background-color: #cd202c; 
+    height: 1px; 
+    border: 0; 
   }
 
   .navbar {
@@ -56,11 +58,12 @@ hr {
 .border{
     padding-top: 10px; 
     padding-bottom: 10px;
-    border-color: pink;
+    border-color: #cd202c;
     background-color: white; 
-    color: green;  
+    color: black;
     padding-left: 5px; 
     padding-right: 5px; 
+    margin-bottom: 10px; 
 }
 
 .btn:hover {
@@ -91,6 +94,20 @@ hr {
 
 p {
   margin-bottom: 5px; 
+}
+
+.count {
+  background: red; 
+  border-radius: 25%;  
+  font-weight: 700;
+  padding-top: 8px; 
+
+}
+
+.rounded-circle {
+  width: 45px; 
+  height: 45px;  
+  margin-left: 15px; 
 }
 
 
