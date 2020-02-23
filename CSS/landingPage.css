@@ -129,9 +129,15 @@ a {
   margin-top: 50px; 
 }
 
-.thanks {
-  margin-top: 100px; 
+.thanks { 
   border-bottom: 2px solid #cd202c; 
+}
+
+.thanks-class{
+  height: 85vh; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 }
 
 #mainNavbar {
@@ -142,9 +148,7 @@ a {
 }
 
 #adminContainer{
-  justify-content: left; 
-  justify-items: left; 
-  width: 25%;
+  width: 100%;
   margin-top: 20px; 
 }
 
