@@ -1,4 +1,6 @@
-var circle =  
+var count =  db.count
+var circle = document.querySelector 
+
 
 for(var i = 0; i < circle.length; i++){
 if (item = 0){

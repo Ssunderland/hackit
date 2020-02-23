@@ -4,17 +4,37 @@ body {
     font-family: 'Raleway';
 }
 
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2px; 
+  background-color: #cd202c; 
+  height: 1px; 
+  border: 0; 
+}
+
+p {
+  margin-bottom: 5px; 
+}
+
+div p:hover {
+  color: #cd202c;
+  cursor: pointer; 
+}
+
+
+a {
+  cursor: pointer; 
+}
+
 
 .row {
     justify-content: center;   
 }
 
-#mainNavbar {
-    margin-right: 0px;
-    margin-left: 0px; 
-    padding-left: 0px; 
-    padding-right: 0px; 
-}
 
 .headers {
     justify-content: center;
@@ -23,17 +43,6 @@ body {
     margin-right: 3px; 
 }
 
-hr {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    height: 2px; 
-    background-color: #cd202c; 
-    height: 1px; 
-    border: 0; 
-  }
 
   .navbar {
       background: rgba(0, 48, 73, 0.92); 
@@ -55,6 +64,7 @@ hr {
     width: 25%;
     margin-top: 20px; 
   }
+
 .border{
     padding-top: 10px; 
     padding-bottom: 10px;
@@ -78,22 +88,12 @@ hr {
     background-color: #cd202c
   }
 
-  div p:hover {
-    color: #cd202c
-  }
-
-.buildingTable{
-
-}
 .indent1{
   text-indent: 10px; 
 }
+
 .indent2{
   text-indent: 30px; 
-}
-
-p {
-  margin-bottom: 5px; 
 }
 
 .rounded-circle {
@@ -128,6 +128,26 @@ p {
 .back-btn {
   margin-top: 50px; 
 }
+
+.thanks {
+  margin-top: 100px; 
+  border-bottom: 2px solid #cd202c; 
+}
+
+#mainNavbar {
+  margin-right: 0px;
+  margin-left: 0px; 
+  padding-left: 0px; 
+  padding-right: 0px; 
+}
+
+#adminContainer{
+  justify-content: left; 
+  justify-items: left; 
+  width: 25%;
+  margin-top: 20px; 
+}
+
 
 
 
